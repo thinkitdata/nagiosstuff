@@ -14,7 +14,7 @@ scrape_page = 'http://localhost/cgi-bin/tac.cgi'
 uid = 'nagiosadmin'
 psswd = 'nagios'
 
-# Setup basic page authentication
+# Handle authentication
 password_mgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
 password_mgr.add_password(None, scrape_page, uid, psswd)
 handler = urllib2.HTTPBasicAuthHandler(password_mgr)
