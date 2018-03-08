@@ -105,7 +105,7 @@ else:
 
 # Create data file for chart.js values
 
-f = open('data.js', 'w')
+f = open('data1.js', 'w')
 
 # hostHeader values
 f.write('var hostDown = ')
