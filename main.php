@@ -163,10 +163,7 @@ $this_year = '2016';
 <div id='splashrow0'>
         <div id="splashbox0" class="splashbox-media"><!-- info banner feed -->
         <!--    <div id="splashbox0-contents"></div>-->
-<!--
-<center><h3>Jr. Badger (2nd screen)</h3></center>
-<iframe src="https://dukecdstats0001.rd.at.cox.net/dashboard-solo/db/contour-2?&panelId=7" width="650" height="250" frameborder="0"></iframe>
--->
+
 </div>
 </div>
 
