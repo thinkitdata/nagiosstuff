@@ -3,28 +3,28 @@
 import sys
 import re
 
-# import our libs
+# Import our libs
 import urllib2
 from bs4 import BeautifulSoup
 
-uid = 'nagiosadmin'
-psswd = 'nagios'
-password_mgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
-
-# specify our url to scrape data from
+# Specify our url to scrape data from
 scrape_page = 'http://localhost/cgi-bin/tac.cgi'
 
-password_mgr.add_password(None, scrape_page, uid, psswd)
+# Don't get excited.  The uid/psswd are the defaults ;-)
+uid = 'nagiosadmin'
+psswd = 'nagios'
 
+# Setup basic page authentication
+password_mgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
+password_mgr.add_password(None, scrape_page, uid, psswd)
 handler = urllib2.HTTPBasicAuthHandler(password_mgr)
 opener = urllib2.build_opener(handler)
-
 urllib2.install_opener(opener)
 
-# dump page contents into variable (page)
+# Dump page contents into variable (page)
 page = urllib2.urlopen(scrape_page)
 
-# parse page data with BeautifulSoup and put in to soup object
+# Parse page data with BeautifulSoup and put in to soup object
 soup = BeautifulSoup (page, 'html.parser')
 
 # Find hostHeader, serviceHeader and healthBar data of interest in soup object
@@ -34,7 +34,10 @@ health_status = soup.find_all('td', attrs={'class' : 'healthBar'})
 
 # Copy array indices into individual arrays for deeper substring searching
 # Copy substrings to vars for injection in to chart.js data
-# hostHeader data
+
+#
+# hostHeader data #
+#
 hD = host_status[0].text.strip()
 hostDown = hD[0:-5]
 hUn = host_status[1].text.strip()
@@ -44,7 +47,9 @@ hostUp = hUp[0:-3]
 hP = host_status[3].text.strip()
 hostPending = hP[0:-8]
 
-# serviceHeader data
+#
+# serviceHeader data #
+#
 sC = service_status[0].text.strip()
 svcCritical = sC[0:-9]
 sW = service_status[1].text.strip()
@@ -68,8 +73,9 @@ svcPending = sP[0:-8]
 # print 'svcOK ',svcOk
 # print 'svcPending ',svcPending
 
-
-# healthBar data
+#
+# healthBar data #
+#
 
 # regex info
 # r is raw string
@@ -93,18 +99,15 @@ else:
 match = re.search(r'alt="\d+.\d+%', health_status[1].encode('utf-8'))
 if match:
     serviceHealth = match.group()[5:-1]
-
     # Print to console for debugging
     # print 'pattern matched is ', match.group()
     # print 'serviceHealth ', serviceHealth
 else:
     serviceHealth = 'ERROR'
-
     # Print to console for debugging
     # print 'NO MATCH'
 
-# Create data file for chart.js values
-
+# Create data file with variable definitions for chart.js
 f = open('data1.js', 'w')
 
 # hostHeader values
@@ -112,14 +115,17 @@ f.write('var hostDown = ')
 f.write(hostDown)
 f.write(';')
 f.write('\n')
+
 f.write('var hostUnreachable = ')
 f.write(hostUnreachable)
 f.write(';')
 f.write('\n')
+
 f.write('var hostUp = ')
 f.write(hostUp)
 f.write(';')
 f.write('\n')
+
 f.write('var hostPending = ')
 f.write(hostPending)
 f.write(';')
@@ -130,18 +136,22 @@ f.write('var svcCritical = ')
 f.write(svcCritical)
 f.write(';')
 f.write('\n')
+
 f.write('var svcWarning = ')
 f.write(svcWarning)
 f.write(';')
 f.write('\n')
+
 f.write('var svcUnknown = ')
 f.write(svcUnknown)
 f.write(';')
 f.write('\n')
+
 f.write('var svcOk = ')
 f.write(svcOk)
 f.write(';')
 f.write('\n')
+
 f.write('var svcPending = ')
 f.write(svcPending)
 f.write(';')
@@ -157,4 +167,5 @@ f.write('var serviceHealth = ')
 f.write(serviceHealth)
 f.write(';')
 f.write('\n')
+
 f.close()
