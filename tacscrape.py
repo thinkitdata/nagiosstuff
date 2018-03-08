@@ -2,8 +2,6 @@
 
 import sys
 import re
-
-# Import our libs
 import urllib2
 from bs4 import BeautifulSoup
 
