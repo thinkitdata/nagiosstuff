@@ -114,7 +114,8 @@ $this_year = '2016';
         }
 </script>
 
-<script src="Chart.bundle.js"></script>
+<script type="text/javascript" src="js/Chart.bundle.js"></script>
+<script type="text/javascript" src="js/data1.js"></script>
 
 </head>
 
