@@ -35,5 +35,4 @@ Quick steps:
 <br>}
 
 #Screenshots
-<img src="http://github.com/thinkitdata/nagiosstuff/main.php-1.png">
-![main.php](https://github.com/thinkitdata/nagiosstuff/main.php-1.png)
+![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/main.php-1.png)
