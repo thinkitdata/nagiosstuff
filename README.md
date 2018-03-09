@@ -14,3 +14,18 @@ Nagios enhancements
   <br>tacscrape.py - /opt/nagios/etc/objects
   <br>data1.js - /opt/nagios/share/js
   <br>Chart.bundle.js - /opt/nagios/share/js
+  
+ <b>Include the below into localhost.cfg to run tacscrape.py as a service.</b>
+ 
+# Service check to update data for chart.js
+define command{
+    command_name    tacscrape
+    command_line    /opt/nagios/etc/objects/tacscrape.py
+    }
+
+define service{
+    use                 generic-service
+    host_name           localhost
+    service_description TACSCRAPE
+    check_command       tacscrape
+    }
