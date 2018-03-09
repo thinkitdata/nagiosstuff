@@ -10,7 +10,7 @@ Nagios enhancements
 <li>apt-get install vim
 
 <b>File Locations:</b>
-  <br>*<i>Can be modified just update the definitions if tacscrape.py and main.php</i>
+  <br>*<i>Can be modified just update the definitions in tacscrape.py and main.php</i>
   <br>tacscrape.py - /opt/nagios/etc/objects
   <br>data1.js - /opt/nagios/share/js
   <br>Chart.bundle.js - /opt/nagios/share/js
