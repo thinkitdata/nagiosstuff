@@ -172,7 +172,7 @@ $this_year = '2016';
 <table>
 <tr>
 <td>
-                        <h3>Host Status <font color="red">(sample data)</font></h3>
+                        <h3>Host Status <font color="red">(<script type="text/javascript">document.write(hostHealth)</script>%)</font></h3>
                         <canvas id="hostChart" ></canvas>
 <script>
         var hostCtx = document.getElementById('hostChart').getContext('2d');
@@ -207,7 +207,7 @@ $this_year = '2016';
         </script>
  </td>
 <td>
-                        <h3>Service Status <font color="red">(sample data)</font></h3>
+                        <h3>Service Status <font color="red">(<script type="text/javascript">document.write(serviceHealth)</script>%)</font></h3>
                         <canvas id="svcChart" ></canvas>
 <script>
         var svcCtx = document.getElementById('svcChart').getContext('2d');
