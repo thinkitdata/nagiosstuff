@@ -172,7 +172,7 @@ $this_year = '2016';
 <table>
 <tr>
 <td>
-                        <h3>Host Status (<script type="text/javascript">document.write(hostHealth)</script>%)</h3>
+                        <h3>Host Availability <script type="text/javascript">document.write(hostHealth)</script>%</h3>
                         Total Hosts (<script type="text/javascript">document.write(hostDown + hostUnreachable + hostUp + hostPending)</script>)
                         <canvas id="hostChart" ></canvas>
 <script>
@@ -208,7 +208,7 @@ $this_year = '2016';
         </script>
  </td>
 <td>
-                        <h3>Service Status (<script type="text/javascript">document.write(serviceHealth)</script>%)</h3>
+                        <h3>Service Availability <script type="text/javascript">document.write(serviceHealth)</script>%</h3>
                         Total Services (<script type="text/javascript">document.write(svcCritical + svcWarning + svcUnknown + svcOk + svcPending)</script>)
                         <canvas id="svcChart" ></canvas>
 <script>
