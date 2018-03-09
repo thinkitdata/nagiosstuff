@@ -35,4 +35,4 @@ Quick steps:
 <br>}
 
 #Screenshots
-<img src="main.php-1.png>
+<img src="http://github.com/thinkitdata/nagiosstuff/main.php-1.png">
