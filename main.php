@@ -175,10 +175,6 @@ $this_year = '2016';
                         <h3>Host Status <font color="red">(sample data)</font></h3>
                         <canvas id="hostChart" ></canvas>
 <script>
-        var hostUp = 1641;
-        var hostDown = 1;
-        var hostUnreachable = 50;
-        var hostPending = 50;
         var hostCtx = document.getElementById('hostChart').getContext('2d');
         var hostChart = new Chart(hostCtx, {
         // The type of chart we want to create
@@ -223,7 +219,7 @@ $this_year = '2016';
         data: {
           labels: ['Ok','Critical', 'Warning','Unknown', 'Pending'],
           datasets: [{
-           label: 'Host Status',
+           label: 'Service Status',
                 // backgroundColor: 'rgb(255, 99, 132)',
             backgroundColor: [
                 'rgb(0,255,0)', // green
@@ -233,7 +229,7 @@ $this_year = '2016';
                 'rgb(0,0,255)' // blue
                 ],
             borderColor: 'rgb(255, 255, 255)',
-            data: [100, 100, 50, 20,35]
+            data: [svcOk, svcCritical, svcWarning, svcUnknown, svcPending]
         }]
         },
 
