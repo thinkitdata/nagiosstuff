@@ -172,7 +172,7 @@ $this_year = '2016';
 <table>
 <tr>
 <td>
-                        <h3>Host Status <font color="red">(<script type="text/javascript">document.write(hostHealth)</script>%)</font></h3>
+                        <h3>Host Status (<script type="text/javascript">document.write(hostHealth)</script>%)</h3>
                         <canvas id="hostChart" ></canvas>
 <script>
         var hostCtx = document.getElementById('hostChart').getContext('2d');
@@ -207,13 +207,13 @@ $this_year = '2016';
         </script>
  </td>
 <td>
-                        <h3>Service Status <font color="red">(<script type="text/javascript">document.write(serviceHealth)</script>%)</font></h3>
+                        <h3>Service Status (<script type="text/javascript">document.write(serviceHealth)</script>%)</h3>
                         <canvas id="svcChart" ></canvas>
 <script>
         var svcCtx = document.getElementById('svcChart').getContext('2d');
         var svcChart = new Chart(svcCtx, {
         // The type of chart we want to create
-        type: 'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+        type: 'doughnut', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
 
         // The data for our dataset
         data: {
