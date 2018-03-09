@@ -170,6 +170,9 @@ $this_year = '2016';
 
 <center>
 <table>
+        <tr>
+<td colspan="2" bgcolor="gray"><h3><center>Tactical Summary</center></h3></td>
+</tr>
 <tr>
 <td>
                         <h3>Host Availability <script type="text/javascript">document.write(hostHealth)</script>%</h3>
