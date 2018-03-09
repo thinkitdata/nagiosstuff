@@ -129,6 +129,11 @@ f.write(hostPending)
 f.write(';')
 f.write('\n')
 
+f.write('var hostTotal = ')
+f.write(hostDown + hostUnreachable + hostUp + hostPending)
+f.write(';')
+f.write('\n')
+
 # serviceHeader values
 f.write('var svcCritical = ')
 f.write(svcCritical)
@@ -152,6 +157,11 @@ f.write('\n')
 
 f.write('var svcPending = ')
 f.write(svcPending)
+f.write(';')
+f.write('\n')
+
+f.write('var svcTotal = ')
+f.write(svcCritical + svcWarning + svcUnknown + svcOk + svcPending)
 f.write(';')
 f.write('\n')
 
