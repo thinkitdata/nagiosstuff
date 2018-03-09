@@ -106,7 +106,7 @@ else:
     # print 'NO MATCH'
 
 # Create data file with variable definitions for chart.js
-f = open('data1.js', 'w')
+f = open('/opt/nagios/share/js/data1.js', 'w')
 
 # hostHeader values
 f.write('var hostDown = ')
