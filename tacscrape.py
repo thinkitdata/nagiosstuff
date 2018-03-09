@@ -167,3 +167,5 @@ f.write(';')
 f.write('\n')
 
 f.close()
+# Send message to "Status Information:" field of TACSCRAPE service
+print 'Successfully Ran'
