@@ -173,6 +173,7 @@ $this_year = '2016';
 <tr>
 <td>
                         <h3>Host Status (<script type="text/javascript">document.write(hostHealth)</script>%)</h3>
+                        Total Hosts (<script type="text/javascript">document.write(hostDown + hostUnreachable + hostUp + hostPending)</script>)
                         <canvas id="hostChart" ></canvas>
 <script>
         var hostCtx = document.getElementById('hostChart').getContext('2d');
@@ -208,6 +209,7 @@ $this_year = '2016';
  </td>
 <td>
                         <h3>Service Status (<script type="text/javascript">document.write(serviceHealth)</script>%)</h3>
+                        Total Services (<script type="text/javascript">document.write(svcCritical + svcWarning + svcUnknown + svcOk + svcPending)</script>)
                         <canvas id="svcChart" ></canvas>
 <script>
         var svcCtx = document.getElementById('svcChart').getContext('2d');
