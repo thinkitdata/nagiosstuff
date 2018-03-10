@@ -1,5 +1,5 @@
 # nagiosstuff
-Nagios enhancements.  While Nagios is awesome there are always times I wish it would do a little more.  This repo will be a collection of bits to help Nagios do more.  Hopefully they'll be usefull to you too.  This was put up quickly and will be better organized, neatened up and made more intuitive as additional features are added.  This first enhancement is simply using the awesome <a hred="www.chartjs.org">Chart.js</a> javascript library to add some summary charts to the homepage.  Additional goals are enhancing the map cgi (via d3.js).  If you have ideas or want to contribute please don't hesitate to ping me!
+Nagios enhancements.  While Nagios is awesome there are always times I wish it would do a little more.  This repo will be a collection of bits to help Nagios do more.  Hopefully they'll be usefull to you too.  This was put up quickly and will be better organized, neatened up and made more intuitive as additional features are added.  This first enhancement is simply using the awesome <a href="www.chartjs.org">Chart.js</a> javascript library to add some summary charts to the homepage.  Additional goals are enhancing the map cgi (via d3.js).  If you have ideas or want to contribute please don't hesitate to ping me!
 
 # Placing a host and service summary dashboard on the main page
 Quick steps:
