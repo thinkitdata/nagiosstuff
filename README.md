@@ -1,7 +1,7 @@
 # nagiosstuff
 Nagios enhancements.  While Nagios is awesome there are always times I wish it would do a little more.  This repo will be a collection of bits to help Nagios do more.  Hopefully they'll be usefull to you too.
 
-# Placing a host and service summary chart dashboard on the home page
+# Placing a host and service summary dashboard on the main page
 Quick steps:
 <br>1) cp /opt/nagios/share/main.php /opt/nagios/share/main.php.bak
 <br>2) Copy tacscrape.py, Chart.bundle.js, main.php to the locations listed below
