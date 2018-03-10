@@ -80,7 +80,7 @@ svcPending = sP[0:-8]
 # alt=" is literal string of alt="
 # \d+. is 1 or more decimal digits (0-9) followed by a .
 # \d+% is 1 or more decimal digits (0-9) followed by a %
-# string[0] & string[1] searched is converted from unicode to raw string format
+# health_status[0] & health_status[1] have to be converted from unicode to raw string format for regex processing
 match = re.search(r'alt="\d+.\d+%', health_status[0].encode('utf-8'))
 if match:
     hostHealth = match.group()[5:-1]
