@@ -39,3 +39,5 @@ Quick steps:
 # Screenshots
 ![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/main.php-1.png)
 ![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/blob/master/TACSCRAPE-service.png)
+<p>
+  We're all in this together <a href"https://youtu.be/kD1G8FwxEmY">don't hate, just chill</a>.
