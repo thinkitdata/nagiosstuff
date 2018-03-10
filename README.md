@@ -1,5 +1,5 @@
 # nagiosstuff
-Nagios enhancements.  While Nagios is awesome there are always times I wish it would do a little more.  This repo will be a collection of bits to help Nagios do more.  Hopefully they'll be usefull to you too.
+Nagios enhancements.  While Nagios is awesome there are always times I wish it would do a little more.  This repo will be a collection of bits to help Nagios do more.  Hopefully they'll be usefull to you too.  This will be better organized, neatened up and made more intuitive as additional features are added.  ;-)
 
 # Placing a host and service summary dashboard on the main page
 Quick steps:
