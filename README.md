@@ -8,7 +8,7 @@ Quick steps:
 <br>3) Edit /opt/nagios/etc/objects/localhost.cfg to include the definitions below
 <br>4) Restart Nagios
 
-<b>tacscrape.py</b> uses <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> (if not installed apt-get install python-bs4) to grep out the hostHeader, serviceHeader and healthBar data from Nagios "Tactical Overview" (nagios/cgi-bin/tac.cgi) for use w/<a href="http://www.chartjs.org">chart.js</a> for displaying a visual summary of the systems being monitored.
+<b>tacscrape.py</b> uses <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> (if not installed apt-get install python-bs4) to grep out the hostHeader, serviceHeader and healthBar data from Nagios "Tactical Overview" (nagios/cgi-bin/tac.cgi) along with <a href="http://www.chartjs.org">chart.js</a> to easily build dashboards.
 
 <b>For the containers w/out vi:</b>
 <li>apt-get update
