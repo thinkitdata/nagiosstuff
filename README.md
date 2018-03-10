@@ -10,12 +10,6 @@ Quick steps:
 
 <b>tacscrape.py</b> uses <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> (if not installed apt-get install python-bs4) to grep out the hostHeader, serviceHeader and healthBar data from Nagios "Tactical Overview" (nagios/cgi-bin/tac.cgi) along with <a href="http://www.chartjs.org">chart.js</a> for easily build dashboards.
 
-<b>For the containers w/out vi:</b>
-<li>apt-get update
-<li>apt-get install apt-file
-<li>apt-file update
-<li>apt-get install vim
-
 <b>File Locations:</b>
   <br>*<i>Can be modified just update the definitions in tacscrape.py and main.php</i>
   <br>tacscrape.py - /opt/nagios/etc/objects
@@ -34,6 +28,13 @@ Quick steps:
 <br>service_description TACSCRAPE
 <br>check_command       tacscrape
 <br>}
+
+# To edit configuration files locally you may or may not need to install vim
+<b>For the containers w/out vi:</b>
+<li>apt-get update
+<li>apt-get install apt-file
+<li>apt-file update
+<li>apt-get install vim
 
 # Screenshots
 ![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/main.php-1.png)
