@@ -26,13 +26,6 @@ Quick steps:
 <br>check_command       tacscrape
 <br>}
 
-# To edit configuration files locally you may or may not need to install vim
-<b>For the containers w/out vi:</b>
-<li>apt-get update
-<li>apt-get install apt-file
-<li>apt-file update
-<li>apt-get install vim
-
 # Screenshots
 ![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/main.php-1.png)
 ![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/TACSCRAPE-service.png)
