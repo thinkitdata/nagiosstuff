@@ -34,6 +34,6 @@ Quick steps:
 <li>apt-get install vim
 
 # Screenshots
-![main.php](https://github.com/thinkitdata/nagiosstuff/maindashboard/blob/master/main.php-1.png)
-![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/maindashboard/blob/master/TACSCRAPE-service.png)
+![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/main.php-1.png)
+![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/TACSCRAPE-service.png)
 
