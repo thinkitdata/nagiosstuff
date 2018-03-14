@@ -23,7 +23,7 @@ Quick steps:
 <br>}
 
 <br>define service{
-<br>use                 generic-service
+<br>use                 local-service
 <br>host_name           localhost
 <br>service_description TACSCRAPE
 <br>check_command       tacscrape
