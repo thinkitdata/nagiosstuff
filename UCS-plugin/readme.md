@@ -1,5 +1,5 @@
 # Nagios UCS plug-in
-[Cisco UCS Manager Plugin Release 0.9(4) for Nagios] (https://communities.cisco.com/docs/DOC-52697)
+[Cisco UCS Manager Plugin Release 0.9(4) for Nagios](https://communities.cisco.com/docs/DOC-52697)
 This requires the UCS python SDK [UCSMSDK](https://github.com/thinkitdata/ucsmsdk)
 
 
