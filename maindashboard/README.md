@@ -27,6 +27,8 @@ Quick steps:
 <br>}
 
 # Screenshots
+main.php view
 ![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/main.php-1.png)
+TACSCRAPE service view
 ![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/TACSCRAPE-service.png)
 
