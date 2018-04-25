@@ -1,8 +1,5 @@
 # Nagios UCS plug-in
-This requires the UCS python SDK
-
-
-
+This requires the UCS python SDK [UCSMSDK](https://github.com/thinkitdata/ucsmsdk)
 
 
 The solution provides end-user with two components.
