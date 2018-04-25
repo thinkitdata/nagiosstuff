@@ -52,5 +52,4 @@ Updated wildcard filter for filtering class based services.
 For any queries/feedback on Cisco UCSM Plugin for Nagios 3.x, please add a discussion to the Cisco Developed Integrations sub-space on Cisco UCS Communities. 
 
 # Screenshots
-![main.php](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/main.php-1.png)
-![TACSCRAPE service](https://github.com/thinkitdata/nagiosstuff/blob/master/maindashboard/TACSCRAPE-service.png)
+![Nagios Map view](https://github.com/thinkitdata/nagiosstuff/blob/master/UCS-plugin/Nagios%20UCS%20plug-in.jpg)
