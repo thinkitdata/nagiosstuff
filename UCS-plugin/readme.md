@@ -11,7 +11,7 @@ Supported Cisco UCS Manager Releases:
 This plugin is supported on Cisco UCS Manager Releases 2.1, 2.2 and 3.0. 
 
 # Software Requirements for Release 0.9(4): 
-### This release of the plugin requires Python SDK 0.8.3 to communicate with UCS Manager. 
+### This release of the plugin requires Python SDK 0.8.3.  It's included in this repo for your convenience.
 
 New Features in Release 0.9(4): 
 Plugin Enhancements: 
