@@ -1,9 +1,6 @@
 # Cisco UCS Manager Plugin for Nagios
 [Cisco UCS Manager Plugin Release 0.9(4) for Nagios](https://communities.cisco.com/docs/DOC-52697)
 
-This requires the UCS python SDK [UCSMSDK](https://github.com/thinkitdata/ucsmsdk)
-
-
 The solution provides end-user with two components.
 * The first is the Nagios monitoring plugin script (cisco_ucs_nagios) which will provide end-user with the capability of monitoring the components like blade servers, rack servers, fabric interconnects, chassis, IO Modules, fabric extenders in one or more UCS domains.
 * The second is an add-on to the Nagios, which will provide end-user with the capability to auto discover UCS domain and create the host definitions in Nagios . It also creates the service definitions for the services defined in the configuration file. By default, the addon is shipped with basic service definitions for each UCS component (aka host in Nagios) which use the cisco_ucs_nagios script to monitor their health. Refer to the user guide section 5.1 for the list of services defined by the addon. For components/hosts which are not healthy, it gives the associated faults and their details. For components/hosts which are healthy, it gives the inventory details.
@@ -14,7 +11,7 @@ Supported Cisco UCS Manager Releases:
 This plugin is supported on Cisco UCS Manager Releases 2.1, 2.2 and 3.0. 
 
 # Software Requirements for Release 0.9(4): 
-### This release of the plugin requires Python SDK 0.8.3 to communicate with UCS Manager. Click here to download Python SDK Release 0.8(3) for UCS Manager. 
+### This release of the plugin requires Python SDK 0.8.3 to communicate with UCS Manager. 
 
 New Features in Release 0.9(4): 
 Plugin Enhancements: 
