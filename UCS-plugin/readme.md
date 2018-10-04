@@ -13,8 +13,8 @@ This plugin is supported on Nagios Core version 3.2 and higher versions.
 Supported Cisco UCS Manager Releases: 
 This plugin is supported on Cisco UCS Manager Releases 2.1, 2.2 and 3.0. 
 
-Software Requirements for Release 0.9(4): 
-This release of the plugin requires Python SDK 0.8.3 to communicate with UCS Manager. Click here to download Python SDK Release 0.8(3) for UCS Manager. 
+#Software Requirements for Release 0.9(4): 
+###This release of the plugin requires Python SDK 0.8.3 to communicate with UCS Manager. Click here to download Python SDK Release 0.8(3) for UCS Manager. 
 
 New Features in Release 0.9(4): 
 Plugin Enhancements: 
