@@ -4,3 +4,4 @@ Nagios enhancements.  While Nagios Core is awesome there are always times I wish
 # Current Projects
 <li><a href="https://github.com/thinkitdata/nagiosstuff/tree/master/maindashboard"><b>Main Dashboard Charts</b></a>
 <li><a href="https://github.com/thinkitdata/nagiosstuff/tree/master/UCS-plugin"><b>UCS plug-in</b></a>
+<li><b>Side Nav enhancements</b> -- coming soon
