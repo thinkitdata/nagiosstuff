@@ -11,7 +11,7 @@ Supported Cisco UCS Manager Releases:
 This plugin is supported on Cisco UCS Manager Releases 2.1, 2.2 and 3.0. 
 
 # UCSM Python SDK Requirements for Release 0.9(4): 
-### This release of the plugin requires UCSM Python SDK version 0.8.3.  This is an older python SDK so it's included in this repo for your convenience.
+### This release of the plugin requires UCSM Python SDK version 0.8.3.  This is an older python SDK so it's included in this repo <a href="https://github.com/thinkitdata/nagiosstuff/blob/master/UCS-plugin/UcsSdk-0.8.3.tar.gz">(here)</a> for your convenience.
 
 New Features in Release 0.9(4): 
 Plugin Enhancements: 
