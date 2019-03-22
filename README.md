@@ -5,5 +5,5 @@ While Nagios <a href="https://www.nagios.org/projects/nagios-core/" target="_bla
 
 # Current Projects
 <li><a href="https://github.com/thinkitdata/nagiosstuff/tree/master/maindashboard"><b>Main Dashboard Charts</b></a>
-<li><a href="https://github.com/thinkitdata/nagiosstuff/tree/master/UCS-plugin"><b>UCS plug-in</b></a>
+<li><a href="https://github.com/thinkitdata/nagiosstuff/tree/master/UCS-plugin"><b>UCS Manager plug-in</b></a>
 <li><b>Side Nav enhancements</b> -- basically javascript sub-menus coming soon  ;-)
